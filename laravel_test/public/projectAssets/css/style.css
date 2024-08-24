@@ -1,0 +1,14 @@
+body {
+  font-family: cursive;
+  color: rgb(120, 73, 12);
+}
+
+.header {
+  background-color: rgb(255, 208, 0);
+  padding: 50px;
+}
+
+.footer {
+  background-color: gray;
+  padding: 50px;
+}

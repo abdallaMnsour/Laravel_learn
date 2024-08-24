@@ -1,0 +1,12 @@
+-----------------------------------------
+	Routes
+Route::resource(name, controller)
+  تقوم باستخدام المسار للوصول الي methods اللي في ال controller مثال
+  username/ or username/update_user
+  update_user is a method in controller::class
+
+Route::resource(name, controller)->except(['one', 'two'])
+  تقوم except باثتثناء بعض ال method من الظهور في ال صفحه
+
+Route::resource(name, controller)->only(['one', 'two'])
+  لا تظي اي method في المسار الا ما تم تحديده

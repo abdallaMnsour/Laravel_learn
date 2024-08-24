@@ -1,0 +1,6 @@
+{
+    "require": {
+        "laravel/telescope": "*",
+        "santigarcor/laratrust": "^8.3"
+    }
+}
